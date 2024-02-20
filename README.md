@@ -2,7 +2,7 @@
 
 ## Medical Access Initiative
 
-![Medical Access Initiative Logo](logo.png)
+![Medical Access Initiative Logo](logo.png){:width="300px"}
 
 ### Introduction
 Medical Access Initiative is a comprehensive medical record management application designed to streamline the process of managing patient health records. It offers healthcare professionals and administrators a centralized platform to efficiently store, access, and update patient information securely.

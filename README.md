@@ -19,13 +19,21 @@ Medical Access Initiative is a comprehensive medical record management applicati
 ### Installation
 To run the Medical Access Initiative application locally, follow these steps:
 1. Clone the repository:
-```https://github.com/tranlynhathao/MAI-hackathon-.git```
+```
+https://github.com/tranlynhathao/MAI-hackathon-.git
+```
 2. Navigate to the project directory:
-```cd web\ demo```
+```
+cd web\ demo
+```
 3. Install dependencies:
-```npm install```
+```
+npm install
+```
 4. Start the application:
-```npm start```
+```
+npm start
+```
 
 
 

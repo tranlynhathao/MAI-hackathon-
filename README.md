@@ -39,41 +39,38 @@ To run the Medical Access Initiative application locally, follow these steps:
 - Other: Redux, Bootstrap, Axios
 
 .
-├── app demo               # Ứng dụng minh họa
-│   ├── backend            # Phần backend
-│   │   └── app.py         # Tệp Python cho backend
-│   └── frontend           # Phần frontend
-│       ├── public         # Tài nguyên công cộng
+├── app demo                    # Ứng dụng minh họa
+│   ├── backend                 # Phần backend
+│   │   └── app.py              # Tệp Python cho backend
+│   └── frontend                # Phần frontend
+│       ├── public              # Tài nguyên công cộng
 │       │   ├── favicon.ico
 │       │   ├── index.html
 │       │   ├── logo192.png
 │       │   ├── logo512.png
 │       │   ├── manifest.json
 │       │   └── robots.txt
-│       ├── src            # Mã nguồn
-│       │   ├── App.css
-│       │   ├── App.js
-│       │   ├── App.test.js
-│       │   ├── index.css
-│       │   ├── index.js
-│       │   ├── logo.svg
-│       │   ├── reportWebVitals.js
-│       │   └── setupTests.js
-│       ├── README.md      # Hướng dẫn sử dụng phần frontend
-│       ├── package-lock.json
-│       └── package.json
-├── data                   # Dữ liệu
-├── mobile                 # Ứng dụng di động
-│   └── app.dart           # Tệp Dart cho ứng dụng di động
-├── web                    # Ứng dụng web
-│   ├── index.html         # Trang chính
-│   ├── medicalRecords.js  # Mã JavaScript cho hồ sơ y tế
-│   ├── medicalRecords.ts  # Mã TypeScript cho hồ sơ y tế
-│   ├── styles.css         # CSS cho giao diện
-│   └── test.html          # Trang kiểm thử
-├── LICENSE                # Giấy phép
-├── README.md              # Tài liệu hướng dẫn sử dụng
-└── logo.png               # Logo
+│       └── src                  # Mã nguồn
+│           ├── App.css
+│           ├── App.js
+│           ├── App.test.js
+│           ├── index.css
+│           ├── index.js
+│           ├── logo.svg
+│           ├── reportWebVitals.js
+│           └── setupTests.js
+├── data                         # Dữ liệu
+├── mobile                       # Ứng dụng di động
+│   └── app.dart                 # Tệp Dart cho ứng dụng di động
+├── web                          # Ứng dụng web
+│   ├── index.html               # Trang chính
+│   ├── medicalRecords.js        # Mã JavaScript cho hồ sơ y tế
+│   ├── medicalRecords.ts        # Mã TypeScript cho hồ sơ y tế
+│   ├── styles.css               # CSS cho giao diện
+│   └── test.html                # Trang kiểm thử
+├── LICENSE                      # Giấy phép
+├── README.md                    # Tài liệu hướng dẫn sử dụng
+└── logo.png                     # Logo
 
 
 ### Contributors

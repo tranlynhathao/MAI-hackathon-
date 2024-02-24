@@ -38,6 +38,8 @@ To run the Medical Access Initiative application locally, follow these steps:
 - Authentication: JSON Web Tokens (JWT)
 - Other: Redux, Bootstrap, Axios
 
+### Repo Structure
+```
 .
 ├── app demo                    # Ứng dụng minh họa
 │   ├── backend                 # Phần backend
@@ -71,7 +73,7 @@ To run the Medical Access Initiative application locally, follow these steps:
 ├── LICENSE                      # Giấy phép
 ├── README.md                    # Tài liệu hướng dẫn sử dụng
 └── logo.png                     # Logo
-
+```
 
 ### Contributors
 - HAO, Tran Ly Nhat (haotran04022005@gmail.com)

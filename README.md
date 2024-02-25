@@ -33,8 +33,13 @@ npm install cors
 ```
 4. Start the application:
 ```
+node server.js
+```
+in backend directory
+```
 npm start
 ```
+int frontend directory
 
 
 ### Usage

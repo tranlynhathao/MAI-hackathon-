@@ -1,0 +1,115 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/kham-benh.css">
+        <link rel="stylesheet" href="../JS/Schedule.js">
+        <title>Examination</title>1
+    </head>
+
+    <body>
+        
+        <div>
+            <div class="overlap">
+                <h1 class="title">SCHEDULE EXAMINATON</h1>
+                <div >
+                    <!-- Nhập thông tin đăng kí khám bệnh -->
+                    <form action="submit.php" method="post">
+
+                        <!-- Nhập tên -->
+                        <form action="input-name">
+                            <input type="text" name="name" placeholder="Full name" required>
+                        </form>
+
+                        <!-- Nhập email -->
+                        <form action="input-email">
+                            <input type="text" name="email" placeholder="Email" required>
+                        </form>
+
+                        <!-- Nhập ngày sinh -->
+                        <form action="input-birth">
+                            <input type="text" name="birth" placeholder="Birthday" required>
+                        </form>
+
+                        <!-- Nhập sdt -->
+                        <form action="input-phone-number">
+                            <input type="text" name="phone-number" placeholder="Phone numbers" required>
+                        </form>
+
+                        <!-- Nhập giới tính -->
+                        <form action="input-sex">
+                            <input type="text" name="sex" placeholder="Sex" required>
+                        </form>
+
+                        <!-- Nhập địa chỉ -->
+                        <form action="input-address">
+                            <input type="text" name="address" placeholder="Address" required>
+                        </form>
+                        
+                        <!-- Chọn chuyên khoa -->
+                        <div class="select-container">
+                            <select class="select-box-service" name="Medical speciality" required>
+                                <option value="">Medical speciality (Chuyên khoa)</option>
+                                <option value="xet-nghiem">Xét nghiệm</option>
+                                <option value="nhi-khoa">Nhi khoa</option>
+                                <option value="san-phu-khoa">Sản phụ khoa</option>
+                                <option value="co-xuong-khop">Cơ - xương - khớp</option>
+                                <option value="Khoa-ngoai">Khoa ngoại</option>
+                                <option value="tai-mui-hong">Tai mũi họng</option>
+                                <option value="tim-mach">Tim mạch</option>
+                                <option value="tieu-hoa-gan-mat">Tiêu hoá, gan, mật</option>
+                                <option value="noi-tong-quat">Nội tổng quát</option>
+                                <option value="mat">Mắt</option>
+                                <option value="rang-ham-mat">Răng hàm mặt</option>
+                                <option value="noi-than-kinh">Nội thần kinh</option>
+                                <option value="tam-the">Tâm thể</option>
+                                <option value="noi-tiet">Nội tiết</option>
+                                <option value="di-ung-mien-dich">Dị ứng miễn dịch</option>
+                                <option value="ho-hap">Hô háp</option>
+                                <option value="tu-van-giac-ngu">Tư vấn giấc ngủ</option>
+                                <option value="kham-suc-khoe-tong-quat">Khám sức khoẻ tổng quát</option>
+                                <option value="kham-suc-khoe-hau-covid-19">Khám sức khoẻ hậu Covid 19</option>
+                                <option value="da-lieu">Da liễu</option>
+                            </select>
+                        </div>
+
+                        <!-- Nhập ngày khám -->
+                        <form action="input-day-of-examination">
+                            <input type="text" name="day-of-examination" placeholder="Ngày khám" required>
+                        </form>
+
+                        <!-- Nhập buổi khám -->
+                        <form action="input-examination">
+                            <input type="text" name="examination" placeholder="Buổi khám" required>
+                        </form>
+
+                        <!-- Nhập triệu chứng -->
+                        <form action="input-symptom">
+                            <input type="text" name="symptom" placeholder="Triệu chứng" required>
+                        </form>
+
+                        <!-- Nút gửi -->
+                        <input type="submit" id="submit-button" value="Submit">
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+
+        
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="container">
+                    <p>&copy; MAI - Medical Access Initiative</p>
+                    <div class="social-icons">
+                        <a href="mailto:youremail@gmail.com"><img src="../IMAG/gmail.png" alt="Gmail"></a>
+                        <a href="https://github.com"><img src="../IMAG/github.png" alt="GitHub"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>

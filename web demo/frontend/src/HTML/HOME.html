@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical access initiative</title>
+    <link rel="stylesheet" href="../CSS/HOME.css">
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <a href="HOME.html">
+                <img src="../IMAG/logo.png" alt="Logo">
+            </a>
+        </div>
+        <div id="navigation">
+            <ul>
+                <li><a href="../HTML/HOME.html">HOME</a></li>
+                <li><a href="../HTML/SCHEDULE.html">SCHEDULE</a></li>
+                <li><a href="../HTML/ABOUTPRODUCT.html">ABOUT PRODUCT</a></li>
+            </ul>
+        </div>
+        <div id="account">
+            <a href="../HTML/LOGIN.html">LOG IN</a>
+        </div>
+    </div>
+    <div id="hospital">
+        <img src="../IMAG/hospital.jpg" alt="Bệnh viện">
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            var header = document.getElementById('header');
+            if (window.scrollY > 0) {
+                header.classList.add('scroll-background');
+            } else {
+                header.classList.remove('scroll-background');
+            }
+        });
+    </script>
+    <div id="service">
+        <div class="hero">
+            <a href="#">
+            <img src="../IMAG/note.png" alt="">
+            <h1>electronic medical examination book</h1>
+            </a>
+        </div>
+        <div class="hero">
+            <a href="../HTML/SCHEDULE.html">
+            <img src="../IMAG/line_up.jpg" alt="">
+            <h1>medical register</h1>
+            </a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <p>&copy; MAI - Medical Access Initiative</p>
+                <div class="social-icons">
+                    <a href=""><img src="../IMAG/gmail.png" alt="Gmail"></a>
+                    <a href=""><img src="../IMAG/github.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

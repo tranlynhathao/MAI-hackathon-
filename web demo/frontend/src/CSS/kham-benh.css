@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlap {
+    position: absolute;
+    width: 1000px;
+    height: 900px;
+    top: 16%;
+    left: 22%;
+    background-color: #ffffff;
+    border-radius: 23px;
+    border: 1px solid;
+    border-color: #eeeeee;
+  }
+
+  .overlap-group-wrapper {
+    position: absolute;
+    width: 1444px;
+    height: 82px;
+    top: 0;
+    left: 0;
+  }
+
+  .overlap-group {
+    position: relative;
+    width: 1440px;
+    height: 82px;
+  }
+/* Khung điền thông tin */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+
+textarea {
+    font-size: 160%;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Nút gửi */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 160%;
+    margin-top: 2%;
+    margin-left: 20%;
+    }
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons {
+    justify-content: center;
+    display: flex;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Khung chọn chuyên khoa */
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%; 
+    height: 130px;
+    margin-right: 10px;
+}
+
+.select-box-service {
+    border: 2px solid #ccc; /* Tăng độ dày của viền */
+    appearance: none;
+    padding: 10px 20px; /* Tăng kích thước của ô chọn */
+    width: 60%; /* Đặt kích thước của ô chọn là 70% của khung chứa */
+    height: 40%; /* Đặt kích thước chiều cao của ô chọn là 60% của khung chứa */
+    color: black;
+    background-color: white;
+    font-size:  24px; /* Tăng kích thước của chữ bên trong ô chọn */
+    text-align: center;
+    box-sizing: border-box;
+}

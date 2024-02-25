@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../CSS/SCHEDULE.css">
+    <link rel="stylesheet" href="../Schedule.js">
+
+    <title>Document</title>
+</head>
+<body>
+  
+    <h1 class="title">SCHEDULE AN APPOINTMENT</h1>
+
+    <div class="container">
+        <div class="row">
+            <!-- Chọn khu vực -->
+            <div class="select-container">
+                <select class="select-box-region">
+                    <option value="">-- Choose a region --</option>
+                    <option value="miền-bắc">Northern Vietnam </option>
+                    <option value="miền-trung">Central Vietnam</option>
+                    <option value="miền-nam">Southern Vietnam</option>
+                </select>
+            </div>
+
+            <!-- Tìm kiếm bệnh viện -->
+            <div class="search-box-hospital">
+                <form action="/search-hospital" id="input-hospital" method="get">
+                    <input type="text" name="keyword" placeholder="Search for a hospital...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Dịch vụ -->
+        <div class="service">
+            <!-- Dịch vụ đặt lịch khám bệnh -->
+            <div class="menu-items">
+                <a href="kham-benh.html" class="service-item">
+                    <h2>Examination</h2>
+                    <p>Search for a doctor, make an appointment, view examination schedules.</p>
+                    
+                    <img src="../IMAG/examination.jpg" alt="Examination" class="inline-images">
+                </a>
+            </div>
+
+            <!-- Dịch vụ đặt lịch tiêm chủng -->
+            <div class="menu-items">
+                <a href="tiem-chung.html" class="service-item">
+                    <h2>Vaccination</h2>
+                    <p>Search for Vaccination centers, schedule vaccination.</p>
+
+                    <img src="../IMAG/vaccination.jpg" alt="Vaccination" class="inline-images">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-container">
+                <p>&copy; MAI - Medical Access Initiative</p>
+                <div class="social-icons">
+                    <a href="mailto:youremail@gmail.com"><img src="../IMAG/gmail.png" alt="Gmail"></a>
+                    <a href="https://github.com"><img src="../IMAG/github.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,349 @@
+/* global.css */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:300,900,500,700,600");
+
+#header {
+  background-color: rgb(67, 182, 190);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 18%;
+  z-index: 999;
+  transition: background-color 0.3s ease; /* Thêm hiệu ứng chuyển đổi cho màu nền */
+}
+
+#header.scroll-background {
+  background-color: transparent; /* Khi cuộn trang, background sẽ biến mất */
+}
+
+#logo img {
+  width: 55%;
+}
+
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 200%;
+  right: 30px;
+  order: 2;
+}
+
+#navigation ul li {
+  font-weight: bold;
+  display: inline;
+  margin-left: 10vh;
+}
+
+#navigation ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+
+}
+
+#navigation ul li :hover {
+  -webkit-text-stroke: 2px greenyellow;
+  border-color: none;
+  color: transparent;
+  font-size: 120%;
+}
+
+#account {
+  order: 1; 
+}
+
+#account a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  font-size: 250%;
+  margin-right: 200px;
+  transition: 0.5s;
+
+}
+
+#account a:hover {
+  -webkit-text-stroke: 2px greenyellow;
+  border-color: none;
+  color: transparent;
+  font-size: 350%;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+
+
+/* style */
+
+:root {
+    --d-9d-9d-9: rgba(64, 201, 231, 1);
+    --white: rgba(30, 30, 30, 1);
+  }
+
+
+.about-us {
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .about-us .div {
+    background-color: #1e1e1e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1500px;
+    position: relative;
+  }
+  
+  .about-us .overlap {
+    position: absolute;
+    width: 1388px;
+    height: 1100px;
+    top: 107px;
+    left: 26px;
+    background-color: #ffffff;
+    border-radius: 23px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .about-us .group {
+    position: relative;
+    width: 1305px;
+    height: 735px;
+    top: 61px;
+    left: 42px;
+  }
+  
+  .about-us .text-wrapper {
+    width: 280px;
+    top: 0;
+    left: 490px;
+    color: #f66e0a;
+    font-size: 48px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Inter", Helvetica;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .p {
+    position: absolute;
+    width: 1275px;
+    top: 160px;
+    left: 14px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-3 {
+    position: absolute;
+    width: 300px;
+    top: 450px;
+    left: 11px;
+    font-family: "Inter", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-4 {
+    position: absolute;
+    width: 362px;
+    top: 100px;
+    left: 14px;
+    font-family: "Inter", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-5 {
+    position: absolute;
+    width: 1278px;
+    top: 520px;
+    left: 11px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  
+  
+  .about-us .overlap-group-wrapper {
+    position: absolute;
+    width: 1444px;
+    height: 82px;
+    top: 0;
+    left: 0;
+  }
+  
+  .about-us .overlap-group {
+    position: relative;
+    width: 1440px;
+    height: 82px;
+  }
+  
+  .about-us .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 68px;
+    top: 0;
+    left: 0;
+    background-color: #adff2f;
+  }
+  
+  .about-us .text-wrapper-8 {
+    width: 173px;
+    top: 19px;
+    left: 871px;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    font-family: "Inter", Helvetica;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-9 {
+    position: absolute;
+    width: 173px;
+    top: 21px;
+    left: 662px;
+    font-family: "Inter", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .search {
+    position: absolute;
+    width: 50px;
+    height: 53px;
+    top: 11px;
+    left: 1075px;
+  }
+  
+  .about-us .user-regular {
+    position: absolute;
+    width: 45px;
+    height: 50px;
+    top: 9px;
+    left: 1243px;
+  }
+  
+  .about-us .logo-hope {
+    position: absolute;
+    width: 80px;
+    height: 36px;
+    top: 14px;
+    left: 30px;
+  }
+  
+  .about-us .shopping-cart-solid {
+    position: absolute;
+    width: 45px;
+    height: 50px;
+    top: 9px;
+    left: 1161px;
+  }
+  
+  .about-us .img {
+    position: absolute;
+    width: 38px;
+    height: 26px;
+    top: 22px;
+    left: 1364px;
+  }
+  
+  .about-us .line {
+    position: absolute;
+    width: 10px;
+    height: 51px;
+    top: 12px;
+    left: 1326px;
+  }
+  
+  .about-us .line-2 {
+    position: absolute;
+    width: 29px;
+    height: 2px;
+    top: 50px;
+    left: 944px;
+  }
+  /* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Chiều rộng 100% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 00px;
+  }
+  
+  .footer-content {
+    width: 100%;
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    margin: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }

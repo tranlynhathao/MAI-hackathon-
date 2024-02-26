@@ -28,13 +28,18 @@ cd web\ demo
 ```
 3. Install dependencies:
 ```
-npm install
+npm install express
+npm install cors
 ```
 4. Start the application:
 ```
+node server.js
+```
+in backend directory
+```
 npm start
 ```
-
+int frontend directory
 
 
 ### Usage
@@ -274,7 +279,8 @@ npm start
 │   └── svm_diabetes_model.pkl
 ├── web demo
 │   ├── backend
-│   │   └── app.py
+│   │   ├── app.py
+│   │   └── server.js
 │   └── frontend
 │       ├── public
 │       │   ├── favicon.ico
@@ -284,6 +290,33 @@ npm start
 │       │   ├── manifest.json
 │       │   └── robots.txt
 │       ├── src
+│       │   ├── CSS
+│       │   │   ├── ABOUTPRODUCT.css
+│       │   │   ├── HOME.css
+│       │   │   ├── LOGIN.css
+│       │   │   ├── SCHEDULE.css
+│       │   │   ├── kham-benh.css
+│       │   │   └── tiem-chung.css
+│       │   ├── HTML
+│       │   │   ├── ABOUTPRODUCT.html
+│       │   │   ├── HOME.html
+│       │   │   ├── LOGIN.html
+│       │   │   ├── SCHEDULE.html
+│       │   │   ├── kham-benh.html
+│       │   │   └── tiem-chung.html
+│       │   ├── ICON
+│       │   ├── IMAG
+│       │   │   ├── examination.jpg
+│       │   │   ├── github.png
+│       │   │   ├── gmail.png
+│       │   │   ├── hospital.jpg
+│       │   │   ├── line_up.jpg
+│       │   │   ├── logo.png
+│       │   │   ├── note.png
+│       │   │   └── vaccination.jpg
+│       │   ├── JS
+│       │   │   ├── Schedule.js
+│       │   │   └── script1.js
 │       │   ├── App.css
 │       │   ├── App.js
 │       │   ├── App.test.js
@@ -295,12 +328,6 @@ npm start
 │       ├── README.md
 │       ├── package-lock.json
 │       └── package.json
-├── web test
-│   ├── index.html
-│   ├── medicalRecords.js
-│   ├── medicalRecords.ts
-│   ├── styles.css
-│   └── test.html
 ├── LICENSE
 ├── README.md
 ├── addme.md

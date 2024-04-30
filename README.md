@@ -334,9 +334,6 @@ int frontend directory
 └── logo.png
 ```
 
-### Contributors
-- HAO, Tran Ly Nhat (haotran04022005@gmail.com)
-
 ### License
 This project is licensed under the [MIT License](LICENSE).
 
